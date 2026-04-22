@@ -1,0 +1,15 @@
+// Select elements
+let input = document.getElementByld("taskinput");
+let button = document.querySelector("button");
+let list = document.getElementByld("taskList");
+
+// Add event when button is clicked
+button.addEventListener("click", function() {
+  let task = input.value;
+  if (task ==="") return;
+  let li = document.createElement("li");
+  li.textContent = task;
+  list.appendChild(li);
+  input.value = "";
+})
+        
