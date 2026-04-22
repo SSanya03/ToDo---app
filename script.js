@@ -8,7 +8,10 @@ let list = document.getElementByld("taskList");
 // Add event when button is clicked
 button.addEventListener("click", function() {
   let task = input.value;
-  if (task ==="") return;
+  if (task ==="") {
+    alert("Enter a task!");
+    return;
+  }
   let li = document.createElement("li");
   li.textContent = task;
   list.appendChild(li);
