@@ -2,7 +2,7 @@
 console.log("JS is running");
 // Select elements
 let input = document.getElementByld("taskinput");
-let button = document.querySelector("button");
+let button = document.getElementByld("addBtn");
 let list = document.getElementByld("taskList");
 
 // Add event when button is clicked
