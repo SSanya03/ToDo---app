@@ -1,3 +1,5 @@
+//Check of JS is running
+console.log("JS is running");
 // Select elements
 let input = document.getElementByld("taskinput");
 let button = document.querySelector("button");
